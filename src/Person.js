@@ -31,7 +31,7 @@ class Person extends Component {
           <button onClick={this.onDecrement.bind(this)}>-</button>
         </div>
       </div>
-    );
+    )
   }
 }
 
