@@ -1,17 +1,13 @@
 import React, { Component } from 'react'
 import SearchBar from './SearchBar'
-import Person from './Person'
+import PersonList from './PersonList'
 
 class Room extends Component {
   render() {
     return (
       <div className="Room">
         <SearchBar />
-        <Person name="Alex"/>
-        <br />
-        <Person name="Barry"/>
-        <br />
-        <Person name="Cindy"/>
+        <PersonList />
       </div>
     )
   }

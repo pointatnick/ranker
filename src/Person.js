@@ -22,12 +22,15 @@ class Person extends Component {
       }))
     }
   }
+  reorder(){
+    console.log('needs reordering')
+  }
   render() {
     return (
       <div>
         <div>
           <button onClick={this.onIncrement.bind(this)}>+</button>
-          <p>{this.state.score} - {this.props.name}</p>
+          <p onChange={this.reorder}>{this.state.score} - {this.props.name}</p>
           <button onClick={this.onDecrement.bind(this)}>-</button>
         </div>
       </div>
