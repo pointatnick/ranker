@@ -5,7 +5,7 @@ class SearchBar extends Component {
     return (
       <div>
         <input type="text" placeholder="Search" />
-        <input type="submit" />
+        <button>Submit</button>
       </div>
     )
   }
