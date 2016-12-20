@@ -18,6 +18,7 @@ class Person extends Component {
     // a person's score can't be negative
     if (this.state.score > 0) {
       this.setState(prevState => ({
+        score: prevState.score - 1
       }))
     }
   }
