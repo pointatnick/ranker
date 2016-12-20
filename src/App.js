@@ -1,8 +1,5 @@
 import React, { Component } from 'react'
-import Room from './Room'
-import Login from './Login'
-import {Link} from 'react-router'
-import Ranking from './Ranking'
+import { Link } from 'react-router'
 
 class App extends Component {
   render() {

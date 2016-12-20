@@ -4,10 +4,10 @@ import App from './App';
 import About from './About';
 import Contact from './Contact';
 import Room from './Room';
-import Login from './Login'; 
+import Login from './Login';
 import Ranking from './Ranking';
 import './index.css';
-import {Router, Route, IndexRoute, hashHistory} from 'react-router'
+import { Router, Route, hashHistory } from 'react-router'
 
 ReactDOM.render(
   <Router history={hashHistory}>
