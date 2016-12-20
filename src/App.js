@@ -15,7 +15,7 @@ class App extends Component {
         <Link to="room">Room</Link>
     	  {this.props.children}
     	</div>
-    	)
+    )
   }
 }
 
